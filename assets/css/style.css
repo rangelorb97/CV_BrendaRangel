@@ -796,3 +796,7 @@ section .container {
   background-color: #18bfd2;
 }
 
+.portfolio-details .portfolio-details-slider .swiper-slide img {
+  width: 100%;
+}
+
