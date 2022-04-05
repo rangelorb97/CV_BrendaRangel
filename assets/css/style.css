@@ -161,6 +161,31 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.footers .container {
+  background: rgba(0,0,0,0);
+  padding: 30px;
+  padding-top: 150px;
+}
+
+.footers .container h2{
+  color: #000;
+  text-align: center;
+  vertical-align: middle;
+}
+
+@media(max-width: 992px){
+  .footers .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+  }
+}
+
+/*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
@@ -445,6 +470,9 @@ section .container {
   background-color: #18bfd2;
 }
 
+.skills p {
+  text-align: center;
+}
 /*--------------------------------------------------------------
 # Interests
 --------------------------------------------------------------*/
