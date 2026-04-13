@@ -833,10 +833,10 @@ section .container {
 }
 
 .skill-column h3 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   margin-bottom: 20px;
-  color: #fff;
+  color: #18bfd2;
 }
 
 .skill-column ul {
@@ -846,7 +846,7 @@ section .container {
 }
 
 .skill-column ul li {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
   color: #fff;
